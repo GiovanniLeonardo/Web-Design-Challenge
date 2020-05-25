@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Latitude Analysis Dashboard with Attitude</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href = "assets/style.css">
+  </head>
+  
+  <body style="background-color: lightgray">
+          
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+          <!-- Top Menu -->
+          <div class="navbar-header">
+              <a class="navbar-brand logo" href="index.html"> 
+              <span class="nav-color">LATITUDE</span></a>
+          </div>
+          
+        <!-- Drop down -->
+        <div class="dropdown">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            Plots
+          </button>
+          <div class="nav navbar-nav navbar-right"></div>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+          </div>
+        </div>
+        <!-- Compare & Data Link-->
+         <div class="nav navbar-nav navbar-right"></div>
+            <a href="comparison.html">Comparison</a>
+            <a href="data.html">Data</a> 
+          </div>
+        </div>
+  </nav>
+
+
+
+
+    <!-- Content for Cloudiness-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h1 class="title">Wind Speed</h1>
+              <hr>
+              <img class="panel" src="assets/lat_vs_windspeed.png" style="width: 100%" alt="windspeed">
+              <p>There is no clear relationship between latitude and windspeed.  Across different latitudes, wind speeds varied with the majority 
+                  of cities having average wind speeds less than 15 mph.
+              </p>
+              <br>
+            </div>
+          </div>
+        </div>
+                <!-- Visualization box-->
+                <div class="col-md-4">
+                  <div class="panel-body">
+                    <h2 class="title">Visualizations</h2>
+                    <hr>
+                    <div class="row">
+                      <div class="panel panel-default"></div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <a href="maxtemp.html"><img class="panel" src="assets/lat_vs_max_temp.png" alt="maxtemp" height="100" width="100"></a> 
+                      </div> 
+                      <div class="panel panel-default"></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">  
+                      <a href="humidity.html"><img class="panel" src="assets/lat_vs_humidity.png" alt="humidity" height="100" width="100"></a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="panel panel-default"></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                      <a href="cloudiness.html"><img class="panel" src="assets/lat_vs_cloudiness.png" alt="cloudiness" height="100" width="100"></a>
+                   </div>
+                    <div class="panel panel-default"></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                      <a href="windspeed.html"><img class="panel" src="assets/lat_vs_windspeed.png" alt="windspeed" height="100" width="100"></a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>      
+          </nav>
+    
+    <!-- Footer Section -->
+    <footer>
+      <div id="footer" class="container">Copyright &copy; G.Leonardo 2020</div>
+    </footer>
+  </div>
+
+</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </html>

@@ -1,0 +1,115 @@
+
+.navbar {
+    background-color: #333;
+    border-bottom-color: #e1244d63;
+    border-bottom-style: solid; 
+    border-bottom-width: 4px; 
+    border-bottom-color: #e1244d63;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; 
+    width: 100%;
+    /* font-size: 14px;  */
+    padding: 20px 0;
+    left: 0;
+}
+/* nav a {
+    /* caret-color: aqua; */
+    margin-left: 15px;
+    display: inline-block;
+    /* border-left: 1px solid #771b2f;  previous #e1244e
+    padding-left: 15px;
+    line-height: 18px;
+} 
+*/
+
+.span nav {
+    text: white;
+}
+/* Title Class  */
+.title{
+    color: #0BADA6;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+    padding-top: 22px; 
+}
+
+.vs {
+    color: #0BADA6;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+    padding-top: 22px; 
+}
+.logo {
+    font-weight: bold;
+    height: 90;
+    color:white;
+    font-size: 25px;
+    font-style:bold;
+}
+
+.row{
+    margin-top: 50;
+    margin-bottom: 55;
+    background-color: white;
+    padding: 10px 20px 15px;
+}
+
+
+/* Images */
+img{
+    width:100% !important;
+    height:100% !important;
+}
+
+.active, .panel:hover{
+    border-color:#0BADA6;
+    border-style: solid; 
+    
+}
+.visual{
+    width:50% !important;
+    height:50% !important;
+}
+
+p1{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16;
+}
+/* Footer */
+footer{
+    background-color: #333; 
+    border-top-style: solid; 
+    border-top-width: 6px; 
+    border-top-color: #e1244d63;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; 
+    min-height: 30px; 
+    width: 100%;
+    font-size: 12px; 
+    text-align: center; 
+    position: fixed;
+    padding: 20px 0;
+    left: 0;
+    bottom: 0;
+    
+    
+    }
+
+    /* Media Queries */
+@media only (max-width: 600px){
+    .navbar{
+    /* background-color: #0BADA6 !important; */
+    background-color: #333 !important;
+    }
+
+    .navbar{
+        max-height: none; 
+        padding: inherit;
+        margin: inherit;
+    }
+
+    .navbar div{
+        margin: inherit; 
+
+     }
